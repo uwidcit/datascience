@@ -1,0 +1,21 @@
+---
+layout: blank
+---
+<main>
+  <article class="{% if site.style.articles == 'stripe' %}light{% else %}{{ site.style.articles }}{% endif %}">
+    <header>
+      <h2><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+
+    </header>
+    <div>
+{{ content }}
+    </div>
+    {% if site.comments.isso and page.comments %}
+    <div id="isso-thread"></div>
+    {% endif %}
+    {% if site.comments.disqus and page.comments %}
+    <div id="disqus_thread"></div>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    {% endif %}
+  </article>
+</main>

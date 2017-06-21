@@ -1,0 +1,18 @@
+---
+title: "Elective Courses"
+---
+
+
+<ul>
+
+    {% for course in site.data.electives %}
+    <li>
+        {{ course.code }} <br>
+        {{ course.name }} <br>
+        {{ course.textbook }} <br>
+        {{ course.description }}
+
+    </li>
+    {% endfor %}
+
+</ul>
