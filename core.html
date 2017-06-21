@@ -2,16 +2,20 @@
 title: "Core Courses"
 ---
 
-<ul>
+<div>
 
-    {% for course in site.data.core %}
-    <li>
-        {{ course.code }} <br>
-        {{ course.name }} <br>
-        {{ course.textbook }} <br>
-        {{ course.description }}
+    <ul>
 
-    </li>
-    {% endfor %}
+        {% for course in site.data.core %}
+        <li style="list-style: none; margin-bottom: 40px;">
+            <span style="font-weight: 600 ">Course Code: </span>{{ course.code }} <br>
+            <span style="font-weight: 600 ">Course Name: </span>{{ course.name }} <br>
+            <!--<span style="font-weight: 600 ">Textbook: </span>{{ course.textbook }} <br>-->
+            <span style="font-weight: 600 ">Description: </span>{{ course.description }}
 
-</ul>
+        </li>
+        {% endfor %}
+
+    </ul>
+
+</div>

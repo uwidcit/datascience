@@ -2,7 +2,8 @@
 layout: blank
 ---
 <main>
-  <article class="{% if site.style.articles == 'stripe' %}light{% else %}{{ site.style.articles }}{% endif %}">
+  <article style="padding-left:40px; padding-right: 40px;"
+          class="{% if site.style.articles == 'stripe' %}light{% else %}{{ site.style.articles }}{% endif %}">
     <header>
       <h2><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
 

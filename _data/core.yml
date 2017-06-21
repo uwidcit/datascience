@@ -1,5 +1,45 @@
-- code: COMP
-  name: A Course
+- code: COMP 6501
+  name: Research Methods, Entrepreneurship, and Intellectual Property
+  textbook: NA
+  description: >
+    This course introduces students to three important non-technical topics: Research Methods,
+    Entrepreneurship, and Intellectual Property. These broad non-technical skillsets are vital for students
+    seeking to start businesses or engage in scientific research.
+
+- code: COMP 6925
+  name: Applied Operations Research
   textbook: fun
   description: >
-    Lorem Lipsum blah
+    TBA
+
+- code: STAT 6105
+  name: Probability and Statistical Methods for Data Analytics
+  textbook: fun
+  description: >
+    Data Analytics is the process of examining data with the purpose of drawing conclusions and discovering useful information. In this science, probability theory provides the foundation for many of the fundamental data analyses and modelling techniques widely used today. Statistical methods, such as hypothesis testing, are used to draw conclusions about data and provide a foundation for more sophisticated data analysis techniques. Viewing questions about data from a statistical perspective allows data scientists to create more predictive algorithms to convert data into knowledge.
+
+
+- code: STAT 6106
+  name: Statistical Inference for Data Analytics
+  textbook: fun
+  description: >
+    The course is aimed at those whose future careers will involve a heavy use of statistical methods and at the same time fulfil the required knowledge of mathematical statistical inference needed at the postgraduate level. Statistical inference provides a foundation for sophisticated data analysis techniques. It is essential for data analysts to have a strong understanding of statistical inference before applying these techniques.
+
+
+- code: COMP 6930
+  name: Machine Learning and Data Mining
+  textbook: fun
+  description: >
+    With the rise of data science and big data fields, machine learning has gained further recognition as the key driver behind the successful advance of these fields. However, many recent entrants to the field can only utilize the variety of machine learning algorithms as black boxes. This course aims to empower students to effectively use and understand the primary approaches so as to be able to modify them for specific uses. Our focus is less on theory and more on practice. Students engage in hands-on implementation of some of the fundamental algorithms such as predictive modeling and clustering applied to real, open-ended problems. While most of the course focuses on machine learning, we also have a few lectures on text/data mining algorithms.
+
+- code: COMP 6940
+  name: Big Data and Visual Analytics
+  textbook: NA
+  description: >
+    Big data is data that is generally too large to fit into the analyst’s computer. Since storage and networking are getting less costly as well as faster, big data can be transported easily to a destination where analysis needs to be done. Insights and business value can be drawn from big data. It is also useful for policy makers e.g. Government. The course aims to provide a broad understanding of big data sets, emerging technologies for these large data sets and methods of analysis of big data.
+
+- code: COMP 6940
+  name: Research Project
+  textbook: fun
+  description: >
+    The objective is to allow students to think independently and provide a unique contribution to their field.
