@@ -10,7 +10,10 @@
   name: Applied Operations Research
   textbook: fun
   description: >
-    TBA
+    The purpose of this course is to study the basic tools for quantitative methods for decision-making. The
+    emphasis is on solution methods and strategies. The course introduces the student to a wide variety of
+    tools used in the decision making process and demonstrates the application of these tools on real-world
+    examples.
 
 - code: STAT 6105
   name: Probability and Statistical Methods for Data Analytics

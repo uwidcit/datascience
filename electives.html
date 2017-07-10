@@ -2,19 +2,19 @@
 title: "Elective Courses"
 ---
 
-Under construction
 
+<ul>
 
-<!--<ul>-->
+    {% for course in site.data.electives %}
+    <li style="list-style: none; margin-bottom: 40px;">
+        <span style="font-weight: 600 ">Course Code: </span>{{ course.code }} <br>
+        <span style="font-weight: 600 ">Course Name: </span>{{ course.name }} <br>
+        <!--<span style="font-weight: 600 ">Textbook: </span>{{ course.textbook }} <br>-->
+        <span style="font-weight: 600 ">Description: </span>{{ course.description }}
 
-    <!--{% for course in site.data.electives %}-->
-    <!--<li>-->
-        <!--{{ course.code }} <br>-->
-        <!--{{ course.name }} <br>-->
-        <!--{{ course.textbook }} <br>-->
-        <!--{{ course.description }}-->
+    </li>
+    {% endfor %}
 
-    <!--</li>-->
-    <!--{% endfor %}-->
+</ul>
 
-<!--</ul>-->
+</div>
