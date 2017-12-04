@@ -41,7 +41,7 @@
   description: >
     Big data is data that is generally too large to fit into the analyst’s computer. Since storage and networking are getting less costly as well as faster, big data can be transported easily to a destination where analysis needs to be done. Insights and business value can be drawn from big data. It is also useful for policy makers e.g. Government. The course aims to provide a broad understanding of big data sets, emerging technologies for these large data sets and methods of analysis of big data.
 
-- code: COMP 6940
+- code: STAT 6005
   name: Research Project
   textbook: fun
   description: >
