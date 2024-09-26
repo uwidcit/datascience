@@ -68,7 +68,7 @@
     the second in a sequence of two computational statistics courses
 
 
-- code: STAT 6XXXX
+- code: STAT 6160
   name: Data Analysis
   textbook: fun
   description: >
@@ -80,7 +80,7 @@
     be expected to propose a data set of their choice for use as case study material.
 
 
-- code: STAT 6XXX
+- code: STAT 6170
   name: Multivariate Analysis
   textbook: na
   description: >
